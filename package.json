@@ -1,0 +1,15 @@
+{
+  "name": "myplanet-tasks",
+  "version": "2.0.0",
+  "description": "tasks for the myplanet project",
+  "main": "buildTasks.mjs",
+  "types": "MyplanetTaskConfig.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node buildTasks.mjs",
+    "postinstall": "node buildTasks.mjs"
+  },
+  "author": "3e8",
+  "license": "ISC"
+}
